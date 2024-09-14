@@ -1,0 +1,50 @@
+html{
+    background-color: #333;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.box{
+    padding: 30px;
+}
+
+.cars-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cars-table caption{
+    font-weight:bold;
+    padding-bottom: 10px;
+
+}
+.cars-table th{
+    background-color: #ac2ecc;
+    padding: 10px;
+    font-weight: normal;
+}
+.cars-table .first-th{
+    border-top-left-radius: 10px;
+}
+.cars-table .last-th{
+    border-top-right-radius: 10px;
+}
+.cars-table td{
+    padding: 10px;
+}
+.cars-table tbody tr:hover td{
+    background-color: white;
+    color: #cc2eaa;
+}
+.cars-table .even{
+    background-color: #666;
+}
+.cars-table tfoot td{
+    border-top: solid 1px #bf2ecc;
+    border-bottom: solid 3px #cc2ecc;
+}
+.cars-table .total{
+    text-align: end;
+}
